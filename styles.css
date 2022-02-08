@@ -9,7 +9,6 @@ body{
 
 .container{
     text-align: center;
-
 }
 
 .calculator{
@@ -24,8 +23,6 @@ body{
 table{
     padding-top: 20px;
     margin: auto;
-
-
 }
 tr,td{
     margin: 0px;

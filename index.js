@@ -9,11 +9,9 @@ function toDegree(angle) {
     return angle * (180 / Math.PI);
 }
 
-
 let output = document.getElementById("output");
 
 let buttons = document.querySelectorAll("button");
-
 
 let screenValue = "";
 for (button of buttons) {
@@ -34,12 +32,9 @@ for (button of buttons) {
         }
         else if (buttontext == 'MS' || buttontext == 'M+') {
 
-
-
             screenValue = eval(screenValue);
             memory += screenValue;
             screenValue = eval(screenValue).toString();
-
 
         }
         else if (buttontext == 'M-') {
@@ -48,10 +43,8 @@ for (button of buttons) {
             memory += - screenValue;
             screenValue = eval(screenValue).toString();
 
-
         }
         else if (buttontext == 'MR') {
-
             screenValue = memory;
             screenValue = eval(screenValue).toString();
         }
@@ -72,11 +65,8 @@ for (button of buttons) {
                 screenValue = "Error";
             }
 
-
         }
-        else if (buttontext == 'console') {
-            console.log(typeof (screenValue));
-        }
+      
         else if (buttontext == 'sin') {
             screenValue = eval(screenValue);
             let trigoRadio = document.querySelector('input[name="trigoRadio"]:checked').value;
@@ -192,8 +182,6 @@ for (button of buttons) {
         else if (buttontext == 'mod') {
             buttontext = '%';
             screenValue += buttontext;
-
-
         }
         else if (buttontext == '+/-') {
             if (screenValue >= 0) {
