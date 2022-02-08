@@ -5,4 +5,4 @@ HTML , CSS , JS used
 #visit 
 https://jaykumarsanandiya.github.io/JS-Calculator/
 # HOMEPAGE 
-![](photo.png)
+![](photo1.png)
